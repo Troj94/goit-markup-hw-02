@@ -1,45 +1,44 @@
-/* .navigation-menu {
-display: inline;
-}
-header {
-    width: 1600px;
-    height: 80px;
-    border: 1px solid #000000;
-}
-.logo {
-    margin-left: 145px;
-    padding-left: 31px;
-    height: 31px;
-    width: 145px;
-    left: 215px;
-    top: 24px;
-    border-radius: nullpx;
-}
-h1 {
-    padding: 200px 452px 280px;
-    height: 120px;
-    width: 696px;
-    border-radius: nullpx;
-    color: #FFFFFF;
-    font-family: Roboto;
-    font-size: 44px;
+.logo,
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: #000;
+    text-decoration: none;
     font-style: normal;
-    font-weight: 900;
-    line-height: 60px;
-    letter-spacing: 0.06em;
-    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
 }
-button {
-    background-color: #2196F3;
-    border-radius: 4px;
-    height: 50px;
-    width: 200px;
-    margin-top: 100px;
-    <!--
-    padding-left: 700px;
-    padding-right: 700px;
-    padding-top: 50px;
-    padding-bottom: 200px;-->
 
+.logo-footer {
+    color: var(--white-text);
 }
-*/
+
+span {
+    color: var(--blue-text);
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+.nav-list a {
+    font-weight: 500;
+    color: var(--common-black-text);
+}
+
+.nav-list :hover,
+.nav-list :focus {
+    color: var(--blue-text);
+}
+
+.contacts-text {
+    color: var(--grey-text);
+}
+
+.header-contats :hover,
+.header-contats :focus {
+    color: var(--blue-text);
+
+address {
+    font-style: normal;
+}
