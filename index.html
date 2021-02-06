@@ -9,17 +9,17 @@
     <link rel="stylesheet" href="./css/variables.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <!--Шапка-->
     <header>
-      <a class="logo" href="#"><span>Web</span>Studio</a>
+      <a class="logo" href="./index.html"><span>Web</span>Studio</a>
       <nav class="nav-list">
         <ul>
-          <li><a href="./index.html">Студия</a></li>
+          <li class="active"><a href="./index.html">Студия</a></li>
           <li>
             <a href="./portfolio.html">Портфолио</a>
           </li>
@@ -43,15 +43,18 @@
     <!--Герой-->
     <main>
       <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button type="button">Заказать услугу</button>
+        <h1 class="hero-title">
+          Эффективные решения <br />
+          для вашего бизнеса
+          <p><button type="button" class="button">Заказать услугу</button></p>
+        </h1>
       </section>
 
       <!--Преимущества и примеры-->
       <section>
         <!--Нужно спрятать-->
         <h2 hidden>Преимущества</h2>
-        <ul>
+        <ul class="advantages">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -85,7 +88,7 @@
 
       <!--Чем мы занимаемся-->
       <section>
-        <h2>Чем мы занимаемся</h2>
+        <h2 class="galery">Чем мы занимаемся</h2>
         <ul>
           <li>
             <img
@@ -108,9 +111,9 @@
       </section>
 
       <!--Наша команда-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team">
+        <h2 class="galery">Наша команда</h2>
+        <ul class="names">
           <li>
             <img src="img/ihor.jpg" alt="Игорь Демьяненко" width="270" />
             <h3>Игорь Демьяненко</h3>
@@ -137,12 +140,20 @@
 
     <!--Подвал-->
     <footer>
-      <a class="logo-footer" href="#"><span>Web</span>Studio</a>
-      <address>
+      <a class="logo-footer" href="./index.html"><span>Web</span>Studio</a>
+      <address class="address-footer">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contacts-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-footer" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>

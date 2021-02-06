@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/style.css" />
@@ -17,15 +17,15 @@
   <body>
     <!--Шапка-->
     <header>
-      <a class="logo" href="#"><span>Web</span>Studio</a>
+      <a class="logo" href="./index.html"><span>Web</span>Studio</a>
       <nav>
-        <ul class="navigation-menu">
+        <ul class="nav-list">
           <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
+          <li class="active"><a href="./portfolio.html">Портфолио</a></li>
           <li><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul class="navigation-menu">
+      <ul class="header-contats">
         <li>
           <a class="contacts-text" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -42,16 +42,16 @@
     <!--Фильтр-->
     <main>
       <nav>
+        <h1 hidden>Проекты</h1>
         <ul>
-          <li>Все</li>
-          <li>Веб-сайты</li>
-          <li>Приложения</li>
-          <li>Дизайн</li>
-          <li>Маркетинг</li>
+          <li><button class="button-projects">Все</button></li>
+          <li><button class="button-projects">Веб-сайты</button></li>
+          <li><button class="button-projects">Приложения</button></li>
+          <li><button class="button-projects">Дизайн</button></li>
+          <li><button class="button-projects">Маркетинг</button></li>
         </ul>
       </nav>
-      <h1 hidden>Проекты</h1>
-      <ul>
+      <ul class="portfolio-projects">
         <li>
           <img src="./img/technokrack.jpg" alt="Веб-сайт Технокряк" />
           <h2>Технокряк</h2>
@@ -102,12 +102,20 @@
 
     <!--Подвал-->
     <footer>
-      <a class="logo-footer" href="#"><span>Web</span>Studio</a>
-      <address>
+      <a class="logo-footer" href="./index.html"><span>Web</span>Studio</a>
+      <address class="address-footer">
         <p>г. Киев, пр-т Леси Украинки, 26</p>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li>
+            <a class="contacts-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contacts-footer" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            >
+          </li>
         </ul>
       </address>
     </footer>

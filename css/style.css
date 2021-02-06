@@ -1,16 +1,15 @@
+header {
+    letter-spacing: 0.02em;
+}
+
 .logo,
 .logo-footer {
     font-family: 'Raleway', sans-serif;
     color: #000;
     text-decoration: none;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-}
-
-.logo-footer {
-    color: var(--white-text);
 }
 
 span {
@@ -18,12 +17,16 @@ span {
 }
 
 body {
-   font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-list a {
     font-weight: 500;
     color: var(--common-black-text);
+}
+
+.active a{
+    color: var(--blue-text);
 }
 
 .nav-list :hover,
@@ -38,7 +41,112 @@ body {
 .header-contats :hover,
 .header-contats :focus {
     color: var(--blue-text);
+}
 
-address {
+.hero-title {
+    color: var(--white-text);
+    background-color: rgba(47, 48, 58, 1);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: var(--blue-text);
+    color: var(--white-text);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.button-projects {
+    background-color: rgba(245, 244, 250, 1);
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+}
+
+.button-projects:hover,
+.button-projects:focus {
+    color: var(--white-text);
+    background-color: var(--blue-text);
+}
+
+.advantages h3 {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages p {
+    color: var(--grey-text);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.galery {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team {
+    background-color: rgba(245, 244, 250, 1);
+}
+
+.names h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+.names p {
+    color: var(--grey-text);
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+}
+
+
+footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+
+.logo-footer {
+    color: var(--white-text);
+}
+
+.address-footer {
+    color: var(--white-text);
     font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.contacts-footer {
+    color: var(--grey-address-text);
+}
+
+.portfolio-projects h2{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-projects p {
+    color: var(--grey-text);
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
 }
