@@ -12,7 +12,7 @@ header {
     line-height: 31px;
 }
 
-span {
+.text-logo {
     color: var(--blue-text);
 }
 
@@ -25,22 +25,19 @@ body {
     color: var(--common-black-text);
 }
 
-.active a{
+.active a {
     color: var(--blue-text);
 }
 
 .nav-list :hover,
-.nav-list :focus {
+.nav-list :focus,
+.header-contats :hover,
+.header-contats :focus {
     color: var(--blue-text);
 }
 
 .contacts-text {
     color: var(--grey-text);
-}
-
-.header-contats :hover,
-.header-contats :focus {
-    color: var(--blue-text);
 }
 
 .hero-title {
@@ -59,6 +56,7 @@ body {
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 .button-projects {
@@ -66,6 +64,7 @@ body {
     font-weight: 500;
     line-height: 26px;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .button-projects:hover,
